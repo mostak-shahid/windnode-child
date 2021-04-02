@@ -75,7 +75,20 @@ html{scroll-behavior:smooth}
 .align-item-center{align-items:center}
 .ast-plain-container.ast-no-sidebar .entry-content .wp-block-group.full-window>.wp-block-group__inner-container,.ast-plain-container.ast-no-sidebar .entry-content .wp-block-group.full-window-no-padding>.wp-block-group__inner-container{max-width:100%}
 .ast-plain-container.ast-no-sidebar .entry-content .wp-block-group.full-window-no-padding>.wp-block-group__inner-container{padding-left:0;padding-right:0}
-
+.mb-0{margin-bottom: 0!important}
+.btn-white a{
+    border-color: #fff;
+    box-shadow: 1px 1px 12px 0px #ccc;
+    opacity: 1;
+    transition: all 0.2s ease;
+    font-size: 30px;
+    color: var(--nv-dark-bg) !important;
+    background-color: #f5f6fa !important;
+    margin: 0px 0px 10px 0px !important;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    border-radius: 50px !important;
+}
 /*Related Post*/
 .single-post .related-post {
     margin-left: calc(-50vw + 50%);
